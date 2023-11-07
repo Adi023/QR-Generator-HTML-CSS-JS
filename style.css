@@ -1,0 +1,39 @@
+#qrcode {
+    margin: 20px;
+    border: solid 5px black;
+    border-radius: 25px;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 15px #888888;
+}
+
+input {
+    padding: 20px;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #053b28;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #160000;
+}
+
+button:hover {
+    background-color: #f17007;
+}
+
+button:active {
+    background-color: #10df1a;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
